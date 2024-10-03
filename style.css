@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html, body{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+
+html{
+    height: 500vh;
+}
+.coontainer{
+  max-width:100%;
+    max-height: 100%;
+    border-bottom: 1px solid #eee;
+}
+.info{
+    display: flex;
+    gap: 15px;
+}
+.info svg{
+    width: 20px;
+    color: #f35525;
+}
+.sales{
+    display: flex;
+    gap: 15px;
+    flex-shrink: 0;
+    margin-left: 26px;
+}
+.sales svg{
+    width: 20px;
+    color: #f35525;
+}
+header{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    align-items: center;
+    background-color: white;
+    /* border-bottom: 1px solid #eee; */
+    padding: 14px 0px;
+    flex-wrap: wrap;
+}
+.social_icon{
+    flex-shrink: 0;
+    /* border: 3px solid black; */
+}
+.social_icon i {
+    background-color: #f35525;
+    gap: 30px;
+    margin-right: 15px; 
+    padding: 6px;
+    width: 20px; 
+    height: 20px; 
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.social_icon i:hover{
+    background-color: #f35525;
+}
+
+/* header2 */
+
+.header2{
+    display: flex;
+    /* border:2px solid green; */
+    justify-content: space-between;
+    margin: 20px 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+nav li{
+    list-style-type: none;
+}
+.btn svg{
+    background-color: #f35525;
+    color: white;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -10px;
+   
+}
+.btn{
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 40px;
+    font-size: 14px;
+    text-transform: capitalize;
+  
+}
+.menu{
+    display: none;
+}
+
+
+/* slider section  */
+
+
+ /* Swiper container styling */
+.mySwiper {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    width: 100%;   /* Full width */
+  }
+  
+  /* Style the slides */
+  .swiper-slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Full height of the swiper */
+  }
+  
+  .swiper-slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Keep the image in the background */
+  }
+  
+  /* Custom content for slide 1
+  .slide-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }   */
+  /* Title Styling */
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    background-color: white;
+    margin-top: 30px;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 5px 8px;
+    margin-left: 100px;
+  }
+  
+  .title span {
+    color:  #f35525; /* Highlight 'canada' */
+  }
+  
+  /* Subtitle Styling */
+  .subtitle h1 {
+    font-size: 62px;
+    width: 50%;
+    font-weight: 600;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-left: 100px;
+  }
+  
+  /* Center text vertically */
+  .swiper-slide .slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+@media screen and (max-width: 1000px) {
+    header{
+    display: none;
+   }
+  
+}
+
+@media screen and (max-width: 881px) {
+    nav{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .menu{
+        display: block;  
+   }
+   .menu,i{
+    font-size: 40px;
+   }
+   .header2{
+    flex-wrap: nowrap;
+    margin-top: 10px;
+   }
+  
+}
+
+@media screen and (max-width: 508px) {
+    .title{
+        
+        margin-top: 50px;
+    }
+    .subtitle h1{
+        width: 40%;
+        font-size: 50px;
+        margin-top: 30px;
+    }
+}

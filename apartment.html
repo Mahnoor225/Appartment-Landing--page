@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="coontainer">
+        <header>
+            <div class="info">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round"
+                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                </svg>
+                <p>info@company.com</p>
+                <div class="sales">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                        stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
+                    </svg>
+                    <p>Sunny Isles Beach, FL 33160</p>
+                </div>
+            </div>
+            <div class="social_icon">
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-line"></i>
+                <i class="ri-linkedin-fill"></i>
+                <i class="ri-instagram-line"></i>
+            </div>
+        </header>
+    </div>
+    <div class="header2">
+        <h1>Villa</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Properties</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Property Details</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round"
+                    d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+            </svg>
+            <button>schedule a visit</button>
+        </div>
+        <i class="ri-menu-line  menu"></i>
+    </div>
+
+    <!-- slider section  -->
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div data-hash="slide1" class="swiper-slide">
+            <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-01.jpg" alt="">
+            <div class="title" >toronto,<span>canada</span></div>
+            <div class="subtitle " ><h1>hurry! get the best villa for you</h1></div>
+        </div>
+        <div data-hash="slide1" class="swiper-slide">
+            <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-02.jpg" alt="">
+            <div class="title" >melboyrne,<span>australia</span></div>
+            <div class="subtitle " ><h1>be quick! get the best villa in town</h1></div>
+        </div>
+        <div data-hash="slide1" class="swiper-slide">
+            <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-03.jpg" alt="">
+            <div class="title" >miami,<span>south florida</span></div>
+            <div class="subtitle " ><h1>action now get the hightest level penthouse</h1></div>
+        </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="appartment.js"></script>
+</body>
+
+</html>
